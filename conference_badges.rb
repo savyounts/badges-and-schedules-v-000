@@ -12,4 +12,4 @@ def batch_badge_creator(names_array)
 end 
 
 def assign_rooms(names_array)
-  
+  names_array.each_with_index
